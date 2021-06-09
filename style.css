@@ -1,0 +1,58 @@
+*{
+	color: #f6efdb
+}
+
+body{
+	background-color: #402717
+}
+
+h1{
+	font-size: 48px;
+}
+
+h1,h2{
+	text-align: center;
+}
+
+ul{
+	font-size: 32px;
+	display: flex;
+	padding: 0px;
+	justify-content: center;
+	list-style: none;
+}
+
+li{
+	margin: 0 30px;
+	padding: 10px;
+	border-color: #cc0000;
+	border-style: solid;
+	border-width: 3px;
+}
+
+li a{
+	text-decoration: none;
+}
+
+li a:hover{
+	color: #cc0000;
+}
+
+section,aside{
+	border-color: #cc0000;
+	border-style: solid;
+	border-width: 3px;
+}
+
+main{
+	width: 70%;
+}
+
+aside{
+	width: 30%;
+}
+
+.wrapper{
+	display: flex;
+
+}
