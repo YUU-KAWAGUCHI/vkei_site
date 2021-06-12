@@ -3,11 +3,23 @@
 }
 
 body{
-	background-color: #402717
+	background-color: #402717;
+	background-image: url(image/image1.png);
+	background-size: 100%;
+	background-repeat: repeat-y;
+	background-blend-mode:darken;
 }
 
 h1{
-	font-size: 48px;
+	font-size: 60px;
+}
+
+h2{
+	font-size: 40px;
+}
+
+h1,h2{
+	letter-spacing: 5px;
 }
 
 h1,h2,p{
@@ -55,3 +67,8 @@ div{
 	border-bottom: solid 3px #cc0000;
 	
 }
+
+ .Emphasis{
+ 	font-weight: bold;
+ 	font-size: 25px;
+ }
