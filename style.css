@@ -46,6 +46,10 @@ li a{
 	text-decoration: none;
 }
 
+li a:link{
+	color: #402717;
+}
+
 li a:visited{
 	color: #402717;
 }
