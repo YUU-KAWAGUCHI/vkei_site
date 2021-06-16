@@ -1,14 +1,11 @@
 @charset "UTF-8";
 
 body{
-	/*background-color: #402717;*/
 	background-color: #f6efdb;
 	background-image: url(image/image1.png);
 	background-size: 100%;
 	background-repeat: repeat-y;
-	/*background-blend-mode: darken;*/
 	background-blend-mode: soft-light;
-	/*color: #f6efdb;*/
 	color: #402717;
 }
 
@@ -50,7 +47,6 @@ li a{
 }
 
 li a:visited{
-	/*color: #f6efdb;*/
 	color: #402717;
 }
 
@@ -80,7 +76,6 @@ div{
 }
 
  .Emphasis{
- 	/*color: #97cdf3;*/
  	color: #009bc6;
  	font-weight: bold;
  	font-size: 25px;
