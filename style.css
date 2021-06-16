@@ -1,13 +1,12 @@
-*{
-	color: #f6efdb
-}
+@charset "UTF-8";
 
 body{
 	background-color: #402717;
 	background-image: url(image/image1.png);
 	background-size: 100%;
 	background-repeat: repeat-y;
-	background-blend-mode:darken;
+	background-blend-mode: darken;
+	color: #f6efdb;
 }
 
 h1{
@@ -22,21 +21,22 @@ h1,h2{
 	letter-spacing: 5px;
 }
 
-h1,h2,p{
+h1,h2,p,div{
 	text-align: center;
 }
 
 ul{
-	font-size: 32px;
 	display: flex;
 	padding: 0px;
 	justify-content: center;
 	list-style: none;
+	margin-bottom: 65px;
 }
 
 li{
+	font-size: 32px;
 	margin: 0 30px;
-	padding: 10px;
+	padding: 5px;
 	border-color: #cc0000;
 	border-style: solid;
 	border-width: 3px;
@@ -44,6 +44,10 @@ li{
 
 li a{
 	text-decoration: none;
+}
+
+li a:visited{
+	color: #f6efdb;
 }
 
 li a:hover{
@@ -63,12 +67,24 @@ main{
 }
 
 div{
-	text-align: center;
-	border-bottom: solid 3px #cc0000;
+	border-bottom: dashed 3px #cc0000;
 	
 }
 
+#end_div{
+	border-bottom: 0px;
+}
+
  .Emphasis{
+ 	color: #97cdf3;
  	font-weight: bold;
  	font-size: 25px;
+ }
+
+ .up_arrow::after{
+ 	content: "\02191";
+ }
+
+ .up_arrow::before{
+ 	content: "\02191";
  }
